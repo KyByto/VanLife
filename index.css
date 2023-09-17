@@ -1,0 +1,316 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  
+    background-color: #FFF7ED;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+main {
+    margin-bottom: 84px;
+}
+
+.absolute-navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    color: black;
+    font-size: 2rem;
+    
+    align-items: center;
+    padding: 0 10px;
+   
+}
+.absolute-navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.absolute-navbar section {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #161616;
+    color: #AAAAAA;
+    height: 74px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    font-weight: 500;
+}
+
+.home-main {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("./assets/images/home-hero.png") no-repeat center center;
+    
+    background-size: cover;
+    min-height: 350px;
+    color: white;
+    padding: 45px 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+    ;
+    font-size: 1.7rem;
+}
+
+.home-main a {
+    background-color: rgb(255, 166, 0);
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+margin-top: 20%;
+
+}
+.van-h1 {
+    margin-left: 1.5rem;
+}
+.vans-links {
+ display: flex;
+gap: 1rem;
+    margin-left: 1.5rem;
+    
+}
+
+.van-link {
+    text-decoration: none;
+    background-color: #FFEAD0;
+    padding: 10px 20px;
+    border-radius: 5px;
+   border: none;
+   font-size: 1.2rem;
+}
+
+.vans-links p {
+   
+   height: fit-content;
+   align-self: center;
+   border-bottom: 2px solid;
+}
+
+
+/* VANS LIST*/
+
+.Vans {
+    width: 100%;
+    
+    justify-content: center;
+   
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem 2rem;
+    
+}
+
+.van {
+   
+   width: 47%;
+   border-radius: 20px;
+  height: 800px;
+  
+}
+.van img {
+   width: 100%;
+   border-radius: 10px;
+   
+}
+.van-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 80px;
+    font-size: large;
+}
+
+.van a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.simple-selected , .simple:hover , .detail-simple {
+    color: #FFEAD0;
+
+    background-color: orange;
+}
+
+.luxury-selected , .luxury:hover, .detail-luxury{
+    color: #FFEAD0;
+
+    background-color: #161616;
+}
+
+.rugged-selected , .rugged:hover , .detail-rugged {
+
+    color: #FFEAD0;
+
+    background-color: #115E59;
+
+}
+
+
+/* VANS DETAILS */
+
+.vanDetails-link {
+    text-decoration: none;
+color: black;
+font-size: 1.4rem;
+margin-left: 2rem;
+}
+
+.vanDetails {
+    margin-left: 300px;
+    width: 700px;
+    display: flex;
+ 
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.vanDetails img {
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
+.vanDetails i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    
+  
+}
+
+.host-links {
+    margin-left: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.host-links a {
+   text-decoration: none;
+   color: black;
+}
+
+.host-links a:hover {
+
+font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+/* HOST VANS */
+.host-vans {
+    
+    margin-left: 1.5rem;
+}
+.host-vans a {
+    text-decoration: none;
+    color: black;
+}
+.host-van-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.host-van {
+    width: 97%;
+   background-color: white;
+   border-radius: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.host-van img {
+    width: 70px;
+    height: 70px;
+    margin-left: 1rem;
+    border-radius: 10px;
+   
+}
+
+.host-vans-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.host-van-details-container {
+
+    margin-top: 3rem;
+    margin-left: 2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 3rem;   
+
+}
+.host-van-details {
+    background-color: white;
+    width: 95%;
+    padding: 2rem;
+}
+
+.host-van-details img {
+    width: 150px;
+    height: 150px;
+   
+    border-radius: 10px;
+}
+
+.host-van-details-top {
+    display: flex;
+}
+
+.host-van-details-top-right {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 15px;
+}
+.host-van-details-top-right h3 {
+width: fit-content;
+border-radius: 5px;
+padding: 2px;
+}

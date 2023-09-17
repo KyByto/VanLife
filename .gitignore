@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+
+# Output build directory
+dist/
+
+# Cache and logs
+.cache/
+logs/
+yarn-error.log
+npm-debug.log*
+
+
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor-specific files
+.vscode/
+
+
+# OS-specific files
+.DS_Store
+
+# Generated files and directories
+/build/
+
